@@ -2,7 +2,7 @@ import axios from "axios"
 
 class Api{
     constructor(){
-        this.baseUrl = "http://localhost:5454"
+        this.baseUrl = "https://quiz-nact.onrender.com"
     }
 
     listAllQuiz(){
